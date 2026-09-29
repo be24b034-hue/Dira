@@ -1,0 +1,15 @@
+# Install DIRA and publish its website
+
+## 1. Install DIRA on Windows
+1. Open DIRA_0.1.0_x64-setup.exe from this folder and finish Setup.
+2. Open DIRA from the Start menu. This is an unsigned preview; check the publisher warning and SHA256SUMS.txt before deciding to run it.
+3. Ollama and qwen3:4b are already installed on this development laptop. On another computer, install Ollama from https://ollama.com/download/windows, open PowerShell and run:
+   ollama pull qwen3:4b
+4. In DIRA → Settings, use On device, Offline English, and Local phrase detection. Click Check saved model connection.
+5. In Permissions, set Microphone to Allow. Return to Settings, select your microphone, save, and enable the wake listener if you want it.
+6. Press Ctrl + Space and say “Open Chrome”, or type it. Ctrl + Shift + Space stops DIRA.
+7. Closing the window keeps DIRA in the tray. Quit DIRA from the tray menu to end its service.
+
+Offline English speech is included. Local mode needs no API key. Initial downloads and web search need internet. Human wake reliability is still experimental; text and push-to-talk remain available.
+Supported tools include app launching, filename search, folder creation and Google/YouTube search. This preview cannot perform every possible computer task.
+
